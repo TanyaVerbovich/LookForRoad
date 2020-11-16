@@ -1,0 +1,18 @@
+﻿ <h1>Все маршруты</h1>
+ <div class="row mt-5 mb-2 ml-5 align-content-center ">
+     @{
+         foreach (var road in Model.GetRoads)
+         {
+             <div class=" col-lg-4">
+                 <h2> @road.Name </h2>
+                 <p>@road.place</p>
+                 <p>@road.datafrom</p>
+                 <p>Мест :@road.HowManyPlaces</p>
+                 <p> Цена: @road.Price.ToString("c")</p>
+                 <p>@road.Telephone</p>
+                 <p class="btn btn-warning" href="#">Подробнее</p>
+             </div>
+
+         }
+     }
+ </div>

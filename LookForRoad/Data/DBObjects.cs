@@ -56,7 +56,7 @@ namespace LookForRoad.Data
                         Name = "Минск-Гомель",
                         HowManyPlaces = 1,
                         Telephone = 3752512230067,
-                        place = "Плозадь Якуба Коласа",
+                        place = "Площадь Якуба Коласа",
                         datafrom = DateTime.Now,
                         isFav = false,
                         Price = 10
